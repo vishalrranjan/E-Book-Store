@@ -1,0 +1,146 @@
+.body-size{
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+.container{
+	/*for container */
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-image: url(E-book.jpg);
+	background-size: cover;
+}
+.nav_bar{
+	position: absolute;
+	width: 100%;
+	height: 110px;
+	display: flex;
+	border-bottom: 3px solid grey;
+	margin: 0;
+	}
+.heading-text{
+	color: black;
+	font-size: 80px;
+	margin-left: 4em;
+	margin-top: 15px;
+	width: 21%;
+}
+.search-button{
+	width: 42px;
+	height: 42px;
+	cursor: pointer;
+	margin: 0px;
+	border-radius: 5px;
+	border: none;
+}
+.search{
+	width: 85%;
+	height: 42px;
+	text-indent: 5px;
+	margin-bottom: 10px;
+	background: gainsboro;
+	border-radius: 5px;
+	border: none;
+}
+.search-bar{
+	position: relative;
+	width: 26%;
+	padding-top: 27px;
+	margin-top: 20px;
+	margin-left: 25%;
+	border: none;
+	}
+.list-item{
+	height: 50%;
+	width: 20%;
+	position: absolute;
+	margin-left: 35px;
+	margin-top: 15em;
+}
+.list{
+	list-style-type: none;
+	border: 1px solid green;
+	border-radius: 5px;
+	margin:15px 0 20px 15px;
+	font-size: 40px;
+	text-align: center;
+	cursor: pointer;
+	}
+li:hover{
+	background-color: green;
+	}
+.intro{
+	height: 50%;
+	width: 30%;
+	position: relative;
+	margin-right: 80px;
+	margin-top: 14em;
+	border: 2px solid black;
+	float: right;
+	text-align: center;
+	border-radius: 0;
+	border-bottom: none;
+	border-top: none;
+	border-width: 5px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+.font{
+	font-family: 'Cormorant Unicase', serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 4em;
+	color: #AC1392;	
+	text-align: center;
+	font-weight: bold;
+	}
+.text{
+	font-family: 'Cormorant Unicase', serif;
+	margin: 0px;
+	font-size: 2em;
+	color: rosybrown;
+	color: black;
+	margin-top: 15px;
+	}
+a:hover{
+	color: floralwhite;
+	}
+a{
+	text-decoration: none;
+	color: black;
+}
+/* css for book page */
+
+.background-gradient{
+background-image: linear-gradient(90deg, rgba(41,190,199,1) 0%, rgba(0,255,187,1) 100%);
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	}
+.branch{
+	font-family: 'Cormorant Unicase', serif;
+	font-size: 40px;
+	margin-top: 2em;
+	text-align: center;
+	font-weight: bold;
+}
+.branch-list{
+	list-style-type: square;
+	border: 1px solid green;
+	border-radius: 5px;
+	margin:20px 30em 20px 12em;
+	font-size: 25px;
+	cursor: pointer;
+}
+.size{
+	margin-top: 100px;
+}
+
+ /* _____________FOR CS SEM & YEAR PAGE______________ */
+
